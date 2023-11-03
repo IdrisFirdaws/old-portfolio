@@ -1,0 +1,67 @@
+/****************************
+General styles
+****************************/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bdf7ee;
+}
+
+h1{
+    font-size: 4em;
+}
+
+
+/********header*********/
+
+header{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #95f2d6;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.container .input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.budget {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #bdf7ee;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .container .input {
+        flex-direction: column;
+        padding: 30px 100px;
+    }
+}
+
+
